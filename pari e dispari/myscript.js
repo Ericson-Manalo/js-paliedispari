@@ -6,7 +6,6 @@ Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (u
 Dichiariamo chi ha vinto.*/
 
 
-
 //chiedo all'utente se preferisce pari o dispari
 let userChoice = prompt('Pari o dispari?');
 
@@ -21,7 +20,6 @@ console.log("L'utente ha scelto: ",userChoice);
 const userNumberChoice = parseInt(prompt('Inserisci un numero da 1 a 5'));
 
 console.log("L'utente ha scelto ", userNumberChoice);
-
 
 //creo la funzione che generi casualmente un numero tra 1 e 5
 function randomNumber (minNumber, maxNumber){
